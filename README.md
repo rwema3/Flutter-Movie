@@ -1,6 +1,7 @@
 # the applikation
 
 A Flutter movie app build with Fish-Redux na TMDB api.  
+
 ## ToDos
 - [ ] redesign UI
 - [ ] account detail
