@@ -31,5 +31,5 @@ Paypal: sb-dhwa71528371@personal.example.com   password: o1298098
 ### tabbedpage
 <img src="https://github.com/o1298098/Flutter-Movie/blob/master/srceenshot/ios1.jpeg" width="150"><img src="https://github.com/o1298098/Flutter-Movie/blob/master/srceenshot/ios2.jpeg" width="150"><img src="https://github.com/o1298098/Flutter-Movie/blob/master/srceenshot/ios3.jpeg" width="150"><img src="https://github.com/o1298098/Flutter-Movie/blob/master/srceenshot/ios4.jpeg" width="150">  
 
-## Other
-home 
+## Developer
+Rwema D. Bagirishya
