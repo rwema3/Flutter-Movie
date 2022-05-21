@@ -25,7 +25,7 @@ Paypal: sb-dhwa71528371@personal.example.com   password: o1298098
 ## Preview 
 <img src="https://github.com/o1298098/Flutter-Movie/blob/master/srceenshot/ios.gif" width="150">  
 
-### tabbedpage
+### How it Looks
 <img src="https://github.com/o1298098/Flutter-Movie/blob/master/srceenshot/ios1.jpeg" width="150"><img src="https://github.com/o1298098/Flutter-Movie/blob/master/srceenshot/ios2.jpeg" width="150"><img src="https://github.com/o1298098/Flutter-Movie/blob/master/srceenshot/ios3.jpeg" width="150"><img src="https://github.com/o1298098/Flutter-Movie/blob/master/srceenshot/ios4.jpeg" width="150">  
 
 ## Developer
