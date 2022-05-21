@@ -15,9 +15,6 @@ A Flutter movie app build with Fish-Redux and TMDB api.
 ## Api doc
 <a href='https://movie-apidoc.web.app/'>https://movie-apidoc.web.app/</a>  
 
-## About Payment  
-this app used Braintree as payment gateway, all payment operations are completed on the server side, and app is only responsible for the input of payment methods. <a href='https://developers.braintreepayments.com/start/overview'>more detail</a>
-
 ### Test Account:  
 Visa: 4111111111111111  
 Paypal: sb-dhwa71528371@personal.example.com   password: o1298098  
