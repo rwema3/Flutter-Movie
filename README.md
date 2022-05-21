@@ -8,7 +8,7 @@ A Flutter movie app build with Fish-Redux na TMDB api.
 - [ ] customize stream support 
 - [x] dark mode support
 - [x] localization
-- [x] search 
+- [x] searchNG
 - [x] detail page 
 - [x] share movie or tv show
 - [x] rate movie or tv show
