@@ -22,8 +22,6 @@ this app used Braintree as payment gateway, all payment operations are completed
 Visa: 4111111111111111  
 Paypal: sb-dhwa71528371@personal.example.com   password: o1298098  
 
-## Demo
-<a href='https://github.com/o1298098/Flutter-Movie/releases/download/demo/demo.apk'>Download</a>
 ## Flutter version
 >Flutter 2.1.0-10.0.pre  
 >Tools • Dart 2.11.0  
