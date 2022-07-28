@@ -1,18 +1,3 @@
-import 'dart:io';
-
-import 'package:common_utils/common_utils.dart';
-import 'package:firebase_analytics/firebase_analytics.dart';
-import 'package:firebase_analytics/observer.dart';
-import 'package:flutter/material.dart' hide Action;
-
-import 'package:fish_redux/fish_redux.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:movie/routes/routes.dart';
-import 'actions/app_config.dart';
-import 'actions/api/tmdb_api.dart';
-import 'actions/timeline.dart';
-import 'actions/user_info_operate.dart';
-import 'generated/i18n.dart';
 
 class _AppState extends State<App> {
   final i18n = I18n.delegate;
