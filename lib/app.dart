@@ -38,6 +38,26 @@ class _AppState extends State<App> {
     setLocaleInfo('zh', TimelineInfoCN());
     setLocaleInfo('en', TimelineInfoEN());
     setLocaleInfo('Ja', TimelineInfoJA());
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Movie',
+      debugShowCheckedModeBanner: false,
+      theme: _lightTheme,
+      darkTheme: _darkTheme,
+      localizationsDelegates: [
+        I18n.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: I18n.delegate.supportedLocales,
+      localeResolutionCallback:
+          I18n.delegate.resolution(fallback: new Locale("en", "US")),
+      navigatorObservers: [
+        FirebaseAnalyticsObserver(analytics: analytics),
+      ],
       home: routes.buildPage('startpage', null),
       onGenerateRoute: (RouteSettings settings) {
         return MaterialPageRoute<Object>(builder: (BuildContext context) {
