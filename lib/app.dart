@@ -39,15 +39,6 @@ class _AppState extends State<App> {
     setLocaleInfo('en', TimelineInfoEN());
     setLocaleInfo('Ja', TimelineInfoJA());
 
-    await AppConfig.instance.init(context);
-
-    await TMDBApi.instance.init();
-
-    await UserInfoOperate.whenAppStart();
-  }
-
-  @override
-  void initState() {
     I18n.onLocaleChanged = onLocaleChange;
 
     _init();
