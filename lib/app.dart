@@ -13,14 +13,6 @@ import 'actions/api/tmdb_api.dart';
 import 'actions/timeline.dart';
 import 'actions/user_info_operate.dart';
 import 'generated/i18n.dart';
-import 'package:permission_handler/permission_handler.dart';
-
-class App extends StatefulWidget {
-  App({Key key}) : super(key: key);
-
-  @override
-  _AppState createState() => _AppState();
-}
 
 class _AppState extends State<App> {
   final i18n = I18n.delegate;
