@@ -39,18 +39,6 @@ class _AppState extends State<App> {
     setLocaleInfo('en', TimelineInfoEN());
     setLocaleInfo('Ja', TimelineInfoJA());
 
-    I18n.onLocaleChanged = onLocaleChange;
-
-    _init();
-    super.initState();
-  }
-
-  void onLocaleChange(Locale locale) {
-    setState(() {
-      I18n.locale = locale;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
