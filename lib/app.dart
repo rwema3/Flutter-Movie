@@ -1,26 +1,3 @@
-
-class _AppState extends State<App> {
-  final i18n = I18n.delegate;
-
-  final AbstractRoutes routes = Routes.routes;
-  final ThemeData _lightTheme =
-      ThemeData.light().copyWith(accentColor: Colors.transparent);
-  final ThemeData _darkTheme =
-      ThemeData.dark().copyWith(accentColor: Colors.transparent);
-  final FirebaseAnalytics analytics = FirebaseAnalytics();
-
-  Future _init() async {
-    if (Platform.isAndroid)
-      await PermissionHandler().requestPermissions([PermissionGroup.storage]);
-    setLocaleInfo('zh', TimelineInfoCN());
-    setLocaleInfo('en', TimelineInfoEN());
-    setLocaleInfo('Ja', TimelineInfoJA());
-
-    await AppConfig.instance.init(context);
-
-    await TMDBApi.instance.init();
-
-    await UserInfoOperate.whenAppStart();
   }
 
   @override
